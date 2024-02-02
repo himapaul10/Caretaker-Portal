@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+    <script src="toggleSections.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body_section">
+        <div class="profile">
+            <div class="image">
+                <img src="./images/logo.jpg" width="120" height="120" alt="profile_picture" />
+            </div>
+            <div class="details patientInfo">
+
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu_option" id="option_1">Summary</div>
+            <div class="menu_option" id="option_2">Care Team</div>
+            <div class="menu_option" id="option_3">Condition</div>
+            <div class="menu_option" id="option_4">Medication</div>
+            <div class="menu_option" id="option_5">Allergies</div>
+            <div class="menu_option" id="option_6">Labs</div>
+        </div>
+        <div class="summary">
+            <div id="care_team">
+                <div class="section_label">Care team</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>CareTaker</th>
+                            <th>Speciality</th>
+                            <th>profile</th>
+                        </tr>
+                    </thead>
+                    <tbody class="careteamInfo">
+
+                    </tbody>
+                </table>
+            </div>
+            <div id="conditions">
+                <div class="section_label">Conditions</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Symptom Name</th>
+                            <th>Identified On</th>
+                        </tr>
+                    </thead>
+                    <tbody class="conditionsInfo">
+
+                    </tbody>
+                </table>
+            </div>
+            <div id="medications">
+                <div class="section_label">Medications</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Medication Name</th>
+                            <th>Dosage</th>
+                            <th>Shedule</th>
+                            <th>Time Taken</th>
+                        </tr>
+                    </thead>
+                    <tbody class="medicationInfo">
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div id="allergies">
+                <div class="section_label">Allergies</div>
+                No Allergies Identified
+            </div>
+            <div id="lab_tests">
+                <div class="section_label">Lab Tests</div>
+                No Tests are conducted.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
